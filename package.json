@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "tailwindcss -i ./css/styles.css -o ./css/dist.css",
-        "watch": "tailwindcss -o tailwind.css --watch",
+        "watch": "tailwindcss -i ./css/styles.css -o ./css/dist.css --watch",
         "prod": "NODE_ENV=production npx tailwindcss -i ./css/styles.css -o ./css/dist.css",
         "prod-minify": "NODE_ENV=production npx tailwindcss -i ./css/styles.css -o ./css/dist.css --minify"
     },

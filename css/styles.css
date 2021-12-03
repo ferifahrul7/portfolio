@@ -1,8 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+    body {
+        @apply bg-gray-400;
+    }
+    h1 {
+        @apply text-2xl;
+    }
+    h2 {
+        @apply text-xl;
+    }
+}
+
 @layer components {
     .btn {
-        @apply px-4 py-2 bg-blue-600 text-white rounded;
+        @apply px-4 py-2 bg-pallette5 text-white rounded;
     }
 }
