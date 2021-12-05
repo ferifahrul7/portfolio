@@ -1,20 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer base {
-    body {
-        @apply bg-gray-400;
-    }
-    h1 {
-        @apply text-2xl;
-    }
-    h2 {
-        @apply text-xl;
-    }
-}
 
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @layer components {
     .btn {
-        @apply px-4 py-2 bg-pallette5 text-white rounded;
+        @apply shadow-md rounded-md font-semibold px-6 py-3 transition duration-300
+    }
+    .btn-primary {
+        @apply bg-biru-dongker text-white
+    }
+    .btn-primary:hover {
+        @apply bg-blue-600
+    }
+    .btn-secondary {
+        @apply bg-gray-200 text-black
+    }
+    .btn-secondary:hover {
+        @apply bg-putih-kekuningan text-gray-800
     }
 }

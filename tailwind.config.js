@@ -8,13 +8,25 @@ module.exports = {
         extend: {},
     },
     theme: {
+        fontFamily: {
+            Poppins: ["Poppins, sans-serif"]
+        },
+        container: {
+            center: true,
+            padding: "1rem",
+            screens: {
+                lg: "1124px",
+                xl: "1124px",
+                "2xl": "1124px"
+            }
+        },
         extend: {
             colors: {
-                "pallete1": "#457b9d",
-                "pallette2": "#e63946",
-                "pallette3": "#a8dadc",
-                "pallette4": "#f1faee",
-                "pallette5": "#1d3557"
+                "biru-kusem": "#457b9d",
+                "merah-merona": "#e63946",
+                "hijau-tosca": "#a8dadc",
+                "putih-kekuningan": "#f1faee",
+                "biru-dongker": "#1d3557"
             }
         },
     },
